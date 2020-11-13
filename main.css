@@ -1,0 +1,168 @@
+
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  z-index: 1;
+}
+
+.name {
+  font-family: 'Anonymous Pro', monospace;
+  margin-top: 4px;
+  margin-left: 17px;
+  font-size: 30px;
+  letter-spacing: 5px;
+  color: rgb(204, 202, 202);
+  opacity: 0.5;
+  cursor: pointer;
+  position: fixed;
+  transition: .7s;
+  text-decoration: none;
+}
+
+.name:hover {
+  text-shadow: 2px 2px rgb(241, 237, 237);
+  transform: translate(0, -4px);
+}
+
+.social ul {
+  position: fixed;
+  top: 0;
+  right: 0;
+  margin-top: 10px;
+  margin-right: 17px;
+  display: flex;
+}
+
+.social ul li {
+  list-style: none;
+  margin-left: 10px;
+  cursor: pointer;
+  position: sticky;
+  transition: .7s;
+}
+
+.social ul li a {
+  font-size: 35px;
+  color: black;
+}
+
+.social li:hover {
+  text-shadow: 2px 2px rgb(226, 218, 218);
+  transform: translate(0, -7px);
+}
+
+.nav {
+  z-index: 1;
+  margin-top: 35px;
+  font-family: 'Anonymous Pro', monospace;
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 160px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: none; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding: 15px;
+  }
+
+.nav a {
+  background-color: none; /* Grey background color */
+  color: black; /* Black text color */
+  display: block;
+  padding: 12px; /* Add some padding */
+  text-decoration: none; /* Remove underline and bullet po ints from links */ 
+  text-transform: uppercase;
+  letter-spacing: 2px; 
+  border-bottom: 1px dotted rgb(226, 218, 218); 
+  transition: .7s;
+  }
+
+.nav a:hover {
+  text-shadow: 2px 2px rgb(226, 218, 218);
+  transform: translate(0, -2px);
+}
+.nav ul {
+  margin: 0;
+  padding: 0;
+  }
+
+.nav-ul {
+  position: fixed;
+}
+.nav ul li {
+  transition: .7s;
+}
+
+.nav-ul ul {
+  display: none;
+}
+
+.nav-ul li:hover ul{
+  display: block;
+  font-size: 12px;
+  transform: translate(0, -2px);
+}
+.nav li {
+  list-style: none;
+  margin: 0;
+  }
+
+.bodycopy {
+  display: inline-block;
+  font-family: 'Roboto Mono', monospace;
+  position: absolute;
+  margin-left: 190px;
+  margin-right: 100px;
+  padding: 5px 5px 5px 20px;
+}
+
+.bodycopy h2 p {
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+}
+
+.bodycopy p {
+  font-size: 1.7vw;
+  margin-top: -25px;
+}
+
+.title-1 {
+  margin-top: 160px;
+  font-size: 6vw;
+  font-weight: lighter;
+  letter-spacing: 5px;  
+  display: flex;
+}
+
+.sub-1 {
+  margin-top: -25px;
+  font-size: 2.5vw;
+  letter-spacing: 5px;  
+  display: flex;
+  padding-bottom: 20px;
+}
+
+.bodycopy img {
+  width: 60vw;
+  padding-bottom: 25px;
+}
+
+.intro {
+  font-size: 8vw;
+  font-weight: lighter;
+  letter-spacing: 5px;  
+  display: flex;
+}
+
+
+.bee {
+  display: block;
+  width: 140%; height: 140%;
+  object-fit: cover;
+  position: fixed;
+  z-index: -1;
+  opacity: .8;
+}
